@@ -92,33 +92,57 @@ export default function Milestones({ milestonesRef }) {
 
       <Timeline position="alternate-reverse">
         <Item
-          date={"01/02/2024"}
+          date={"05/05/2024"}
           title={"Project Proposal"}
           description={"Initial project proposal"}
         />
         <Dash />
         <Item
-          date={"15/03/2024"}
+          date={"23/08/2024"}
+          title={"Proposal Report"}
+          description={"A Project Proposal is a document that describes the project vision"}
+        />
+        <Dash />
+        <Item
+          date={"04/12/2024"}
           title={"Progress Presentation 1"}
           description={"First progress presentation"}
         />
         <Dash />
         <Item
-          date={"01/05/2024"}
+          date={"19/03/2025"}
           title={"Progress Presentation 2"}
           description={"Second progress presentation"}
         />
         <Dash />
         <Item
-          date={"20/07/2024"}
-          title={"Final Assessment"}
-          description={"Final project assessment"}
+          date={"19/03/2025"}
+          title={"Research Paper"}
+          description={"Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge"}
         />
         <Dash />
         <Item
-          date={"25/07/2024"}
-          title={"Viva"}
-          description={"Oral examination (viva)"}
+          date={"11/04/2025"}
+          title={"Final Report"}
+          description={"Final Report evaluates the completed project done throughout the year"}
+        />
+        <Dash />
+        <Item
+          date={"27/05/2025"}
+          title={"Final Presentation & Viva"}
+          description={"Viva is held individually to assess each member's contribution to the project"}
+        />
+        <Dash />
+        <Item
+          date={"27/05/2025"}
+          title={"Website Assessment"}
+          description={"The Website helps to promote our research project and reveals all details related to the project"}
+        />
+        <Dash />
+        <Item
+          date={"00/06/2025"}
+          title={"Research Logbook"}
+          description={"Status of the project is validated through the Logbook. This also includes, Status documents 1 & 2"}
         />
       </Timeline>
     </Box>
