@@ -7,6 +7,7 @@ import ResearchGap from "./components/ResearchGap";
 import ResearchProblem from "./components/ResearchProblem";
 import ResearchObjectives from "./components/ResearchObjectives";
 import Methodology from "./components/Methodology";
+import Coupling from "./components/MethodologyCoupling";
 import Technologies from "./components/Technologies";
 import Milestones from "./components/Milestones";
 import Documents from "./components/Documents";
@@ -41,6 +42,7 @@ function App() {
       <ResearchProblem />
       <ResearchObjectives />
       <Methodology />
+      <Coupling />
       <Technologies />
 
       <Milestones milestonesRef={milestonesRef} />
