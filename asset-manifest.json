@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e6c13ad2.css",
-    "main.js": "/website/static/js/main.e0c62d0f.js",
+    "main.js": "/website/static/js/main.70e6a411.js",
+    "static/media/system-coupling-diagram.png": "/website/static/media/system-coupling-diagram.b4da69a49dc4319227e0.png",
     "static/media/research-problem.png": "/website/static/media/research-problem.c3480c426b7e75b59f8b.png",
     "static/media/system-architecture.png": "/website/static/media/system-architecture.621638698f50870d54ba.png",
     "static/media/InfraPulse.png": "/website/static/media/InfraPulse.37783d450cef08d52421.png",
@@ -10,10 +11,10 @@
     "static/media/server.svg": "/website/static/media/server.24d7618723d0824cf956cb91a31f2d27.svg",
     "index.html": "/website/index.html",
     "main.e6c13ad2.css.map": "/website/static/css/main.e6c13ad2.css.map",
-    "main.e0c62d0f.js.map": "/website/static/js/main.e0c62d0f.js.map"
+    "main.70e6a411.js.map": "/website/static/js/main.70e6a411.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.e0c62d0f.js"
+    "static/js/main.70e6a411.js"
   ]
 }
