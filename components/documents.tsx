@@ -103,14 +103,24 @@ export default function Documents() {
                     </Badge>
                   </div>
 
-                  <Button
-                    className="w-full"
-                    variant={doc.status === "Available" ? "default" : "secondary"}
-                    disabled={doc.status !== "Available"}
-                  >
-                    <Download className="mr-2 h-4 w-4" />
-                    {doc.status === "Available" ? "Download" : "Coming Soon"}
-                  </Button>
+                  {doc.status === "Available" ? (
+                    <a
+                      href={doc.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block"
+                    >
+                      <Button className="w-full" variant="default">
+                        <Download className="mr-2 h-4 w-4" />
+                        Download
+                      </Button>
+                    </a>
+                  ) : (
+                    <Button className="w-full" variant="secondary" disabled>
+                      <Download className="mr-2 h-4 w-4" />
+                      Coming Soon
+                    </Button>
+                  )}
                 </CardContent>
               </Card>
             </motion.div>

@@ -126,14 +126,24 @@ export default function Presentations() {
                     </div>
                   </div>
 
-                  <Button
-                    className="w-full"
-                    variant={presentation.status === "Available" ? "default" : "secondary"}
-                    disabled={presentation.status !== "Available"}
-                  >
-                    <Download className="mr-2 h-4 w-4" />
-                    {presentation.status === "Available" ? "Download Slides" : "Coming Soon"}
-                  </Button>
+                  {presentation.status === "Available" ? (
+                    <a
+                      href={presentation.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block"
+                    >
+                      <Button className="w-full" variant="default">
+                        <Download className="mr-2 h-4 w-4" />
+                        Download Slides
+                      </Button>
+                    </a>
+                  ) : (
+                    <Button className="w-full" variant="secondary" disabled>
+                      <Download className="mr-2 h-4 w-4" />
+                      Coming Soon
+                    </Button>
+                  )}
                 </CardContent>
               </Card>
             </motion.div>

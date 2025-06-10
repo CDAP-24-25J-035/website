@@ -24,21 +24,19 @@ const teamMembers = [
   {
     name: "Sapumal Wijekoon",
     email: "sapumalwijekoon4@gmail.com",
-    role: "Lead Developer",
-    specialization: "System Architecture & Backend Development",
+    role: "Developer",
     image: "/placeholder.svg?height=200&width=200",
   },
   {
     name: "Shabina Farveen",
     email: "shabinafarveen@gmail.com",
-    role: "Research Analyst",
-    specialization: "Data Analysis & Machine Learning",
+    role: "Developer",
     image: "/placeholder.svg?height=200&width=200",
   },
   {
     name: "Heshanth Zimmendra",
     email: "heshanthzimmendra@gmail.com",
-    role: "Frontend Developer",
+    role: "Developer",
     specialization: "UI/UX & Visualization",
     image: "/placeholder.svg?height=200&width=200",
   },
@@ -49,7 +47,6 @@ interface PersonCardProps {
     name: string
     email: string
     role: string
-    specialization?: string
     image: string
   }
 }
@@ -68,7 +65,6 @@ function PersonCard({ person }: PersonCardProps) {
         <div className="space-y-2">
           <h3 className="text-xl font-semibold text-gray-900">{person.name}</h3>
           <p className="text-blue-600 font-medium">{person.role}</p>
-          {person.specialization && <p className="text-sm text-gray-600">{person.specialization}</p>}
         </div>
 
         <div className="flex space-x-2">
