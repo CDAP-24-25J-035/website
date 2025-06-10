@@ -8,20 +8,12 @@ import { motion } from "framer-motion"
 
 const documents = [
   {
-    title: "Project Charter",
-    description: "Initial project scope, objectives, and stakeholder requirements",
-    type: "Charter",
-    status: "Available",
-    date: "May 2024",
-    link: "#",
-  },
-  {
     title: "Proposal Report",
     description: "Comprehensive project proposal with methodology and expected outcomes",
     type: "Report",
     status: "Available",
     date: "August 2024",
-    link: "#",
+    link: "https://drive.google.com/drive/folders/1VIeDDKSm2nIWd8vR9yuJdscgiW-R2gJ0?usp=drive_link",
   },
   {
     title: "Status Document 1",
@@ -43,9 +35,9 @@ const documents = [
     title: "Final Report",
     description: "Complete project evaluation, results, and future recommendations",
     type: "Report",
-    status: "Coming Soon",
+    status: "Available",
     date: "April 2025",
-    link: "#",
+    link: "https://drive.google.com/drive/folders/1tU49fa8BtRJXRscqfgQOVe8NFi5E93R-?usp=drive_link",
   },
   {
     title: "Research Paper",

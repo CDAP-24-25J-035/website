@@ -15,7 +15,7 @@ const presentations = [
     date: "May 2024",
     duration: "15 mins",
     audience: "Academic Panel",
-    link: "#",
+    link: "https://drive.google.com/file/d/1d-7C7NaLcz-idvlh5vbMiKsO11sv75_7/view?usp=drive_link",
   },
   {
     title: "Progress Presentation 1",
@@ -25,7 +25,7 @@ const presentations = [
     date: "December 2024",
     duration: "20 mins",
     audience: "Supervisors & Peers",
-    link: "#",
+    link: "https://drive.google.com/file/d/1BSz2KQaucUcBql23QYsPI611Q_jmgP4Z/view?usp=drive_link",
   },
   {
     title: "Progress Presentation 2",
@@ -35,17 +35,17 @@ const presentations = [
     date: "March 2025",
     duration: "25 mins",
     audience: "Academic Panel",
-    link: "#",
+    link: "https://drive.google.com/file/d/19SvkbkSt6tVoVDsh-bYGPQ-n_YY2nNmC/view?usp=drive_link",
   },
   {
     title: "Final Presentation",
     description: "Complete project showcase with results, evaluation, and future work",
     type: "Final",
-    status: "Coming Soon",
+    status: "Available",
     date: "May 2025",
     duration: "30 mins",
     audience: "Evaluation Panel",
-    link: "#",
+    link: "https://drive.google.com/file/d/1UXd9OVgjifOE8S-QZvO4Vl0CsqpRDYiM/view?usp=drive_link",
   },
 ]
 
