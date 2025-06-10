@@ -14,4 +14,4 @@ f:I[9792,[],""]
 c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 9:null
 a:null
-e:[["$","title","0",{"children":"v0 App"}],["$","meta","1",{"name":"description","content":"Created with v0"}],["$","meta","2",{"name":"generator","content":"v0.dev"}]]
+e:[["$","title","0",{"children":"InfraPulse"}],["$","meta","1",{"name":"description","content":"Created with InfraPulse"}],["$","meta","2",{"name":"generator","content":"InfraPulse.dev"}]]
