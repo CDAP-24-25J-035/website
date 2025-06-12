@@ -116,11 +116,11 @@ export default function CouplingAnalysis() {
             className="relative"
           >
             <div className="relative">
-              <img
+              {/* <img
                 src="/images/dependency-graph.png"
                 alt="Microservice Dependency Graph"
                 className="w-full h-auto rounded-2xl shadow-2xl border border-gray-200"
-              />
+              /> */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent rounded-2xl"></div>
 
               {/* Floating metrics cards */}
