@@ -4,9 +4,10 @@
   "homepage": "https://cdap-24-25j-035.github.io/website",
   "private": true,
   "scripts": {
+    "dev": "next dev",
     "build": "next build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out --dotfiles"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
