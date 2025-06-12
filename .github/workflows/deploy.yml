@@ -1,8 +1,7 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build-deploy:
@@ -29,8 +28,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Build & Export
-        run: pnpm run build && pnpm run export
+      - name: Build (static export included)
+        run: pnpm build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
