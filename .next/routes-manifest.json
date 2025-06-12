@@ -2,8 +2,16 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/website",
   "redirects": [
+    {
+      "source": "/website/",
+      "destination": "/website",
+      "basePath": false,
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^/website/$"
+    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
@@ -45,5 +53,15 @@
     "pathHeader": "x-nextjs-rewritten-path",
     "queryHeader": "x-nextjs-rewritten-query"
   },
-  "rewrites": []
+  "rewrites": {
+    "beforeFiles": [
+      {
+        "source": "/website//_next/:path+",
+        "destination": "/website/_next/:path+",
+        "regex": "^/website//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
+      }
+    ],
+    "afterFiles": [],
+    "fallback": []
+  }
 }
